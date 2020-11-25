@@ -1,0 +1,4 @@
+Sitemap: https://rydecars.com/sitemap.xml
+
+User-agent: *
+Disallow: /

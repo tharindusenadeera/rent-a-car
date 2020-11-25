@@ -1,0 +1,8 @@
+Sitemap: https://rydecars.com/sitemap.xml
+
+User-agent: *
+Disallow: /cgi-bin/
+
+Allow: /static/js/
+Allow: /css/
+Allow: /static/css/
