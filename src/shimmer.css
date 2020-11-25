@@ -1,0 +1,196 @@
+.checkout-outer .top-owner-inner .styles_shimmer__2mxs4,
+.checkout-outer .owner-info-section .styles_shimmer__2mxs4,
+.cities-testimonials-section .ct-user-wrap .styles_shimmer__2mxs4,
+.Prof_dropmenu_b .styles_shimmer__2mxs4,
+.chat-person-left .styles_shimmer__2mxs4,
+.review-header-left .styles_shimmer__2mxs4,
+.SC_chatbox .tic-pro-pic .styles_shimmer__2mxs4,
+.car-search-outer .car-list-item-wrapper .cli-car-owner-image .styles_shimmer__2mxs4,
+.car-owner-left .styles_shimmer__2mxs4,
+.reviewer-wrapper .styles_shimmer__2mxs4{ 
+    border-radius: 50%;
+}
+.Prof_notifymenu .car .styles_shimmer__2mxs4{
+    width: 50px;
+    height: 33px;
+    border-radius: 4px;
+}
+.Prof_body .car-photo .styles_shimmer__2mxs4{
+    width: 108px;
+    height: 72px;
+    border-radius: 8px;
+}
+.review-header .trip-car-pic .styles_shimmer__2mxs4{
+    border-radius: 4px;
+    width: 70px;
+    height: 46px;
+}
+.SC_tick_status .styles_shimmer__2mxs4,
+.SC_tick_type .styles_shimmer__2mxs4{
+    width: 20px;
+    border-radius: 50%;
+}
+#profile-wrapper .co-fav-cars-wrapper .cities-box .styles_shimmer__2mxs4,
+#profile-wrapper .co-cars-wrapper .cars-box .styles_shimmer__2mxs4,
+.checkout-outer .owl-carousel .item .styles_shimmer__2mxs4,
+.featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4,
+.sidebar-widget .cars-slider-section .owl-carousel .item .styles_shimmer__2mxs4,
+.booked-trip-wrapper .bt-car-image .styles_shimmer__2mxs4,
+.sidebar-widget .cars-slider-section .owl-carousel .item .styles_shimmer__2mxs4
+{
+    border-radius: 8px;
+}
+.review-wrapper a .styles_shimmer__2mxs4{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.cli-car-image .styles_shimmer__2mxs4{
+    height: 223px !important;
+}
+
+@media (min-width:320px){
+    .sidebar-widget .cars-slider-section .owl-carousel .item .styles_shimmer__2mxs4{
+        width: 320px !important;
+    }
+    .booked-trip-wrapper .bt-car-image .styles_shimmer__2mxs4{
+        width: 290px !important; 
+    }
+    #profile-wrapper .cars-box .styles_shimmer__2mxs4,
+    #profile-wrapper .cars-box-link .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item .styles_shimmer__2mxs4,
+    .checkout-outer .owl-carousel .item .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4{
+        width: 290px !important;
+        height: 215px !important;
+    }
+    .checkout-outer .cars-slider-section .item .styles_shimmer__2mxs4{
+        width: 390px !important;
+    }
+}
+@media (min-width:360px){
+    .sidebar-widget .cars-slider-section .owl-carousel .item .styles_shimmer__2mxs4{
+        width: 360px !important;
+    }
+    .booked-trip-wrapper .bt-car-image .styles_shimmer__2mxs4{
+        width: 330px !important; 
+        height: 235px !important;
+    }
+    #profile-wrapper .cars-box .styles_shimmer__2mxs4,
+    #profile-wrapper .cars-box-link .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item .styles_shimmer__2mxs4,
+    .checkout-outer .owl-carousel .item .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4{
+        width: 330px !important;
+    }
+}
+@media (min-width:375px){
+    .sidebar-widget .cars-slider-section .owl-carousel .item .styles_shimmer__2mxs4{
+        width: 375px !important;
+    }
+    .booked-trip-wrapper .bt-car-image .styles_shimmer__2mxs4{
+        width: 345px !important; 
+    }
+    #profile-wrapper .cars-box .styles_shimmer__2mxs4,
+    #profile-wrapper .cars-box-link .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item .styles_shimmer__2mxs4,
+    .checkout-outer .owl-carousel .item .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4{
+        width: 345px !important;
+    }
+}
+/* Samsung S8 Only */
+@media only screen and (min-width: 412px) {
+    #profile-wrapper .cars-box .styles_shimmer__2mxs4,
+    #profile-wrapper .cars-box-link .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item .styles_shimmer__2mxs4,
+    .checkout-outer .owl-carousel .item .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4{
+        width: 380px !important;
+    }
+}
+@media (min-width:414px){
+    .sidebar-widget .cars-slider-section .owl-carousel .item .styles_shimmer__2mxs4{
+        width: 414px !important;
+    }
+    .booked-trip-wrapper .bt-car-image .styles_shimmer__2mxs4{
+        width: 384px !important; 
+    }
+    #profile-wrapper .cars-box .styles_shimmer__2mxs4,
+    #profile-wrapper .cars-box-link .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item .styles_shimmer__2mxs4,
+    .checkout-outer .owl-carousel .item .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4{
+        width: 384px !important;
+        height: 230px !important;
+    }
+}
+@media (min-width:768px){
+    .booked-trip-wrapper .bt-car-image .styles_shimmer__2mxs4{
+      width: 408px !important;
+      height: 400px !important;
+    }
+    #profile-wrapper .cars-box .styles_shimmer__2mxs4,
+    #profile-wrapper .cars-box-link .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4{
+        width: calc(750px / 2 - 22.5px) !important;
+        height: 230px !important;
+    }
+    .checkout-outer .owl-carousel .item .styles_shimmer__2mxs4
+    {
+        width: calc(750px / 2 - 22.5px) !important;
+        height: 170px !important;
+    }
+}
+@media (min-width:900px){
+    #profile-wrapper .cars-box .styles_shimmer__2mxs4,
+    #profile-wrapper .cars-box-link .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4{
+        width: calc(750px / 3 - 22.5px) !important;
+        height: 150px !important;
+    }
+    .checkout-outer .owl-carousel .item .styles_shimmer__2mxs4{
+        width: calc(750px / 3 - 22.5px) !important;
+    }
+}
+@media (min-width:992px){
+    .booked-trip-wrapper .bt-car-image .styles_shimmer__2mxs4{
+      width: 536px !important; 
+    }
+    #profile-wrapper .cars-box .styles_shimmer__2mxs4,
+    #profile-wrapper .cars-box-link .styles_shimmer__2mxs4{
+        width: calc(970px / 3 - 22.5px) !important;
+        height: 200px !important;
+    }
+    .checkout-outer .owl-carousel .item .styles_shimmer__2mxs4{
+        width: calc(970px / 3 - 22.5px) !important;
+    }
+    .featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4{
+        width: calc(970px / 3 - 22.5px) !important;
+        height: 170px !important;
+    }
+}
+@media (min-width:1024px){
+    .sidebar-widget .cars-slider-section .owl-carousel .item .styles_shimmer__2mxs4{
+        width: 292px !important;
+    }
+}
+@media (min-width:1200px){
+    .booked-trip-wrapper .bt-car-image .styles_shimmer__2mxs4{
+        width: 653px !important; 
+    }
+    #profile-wrapper .cars-box .styles_shimmer__2mxs4,
+    #profile-wrapper .cars-box-link .styles_shimmer__2mxs4{
+        width: calc(1170px / 3 - 22.5px) !important;
+        height: 230px !important;
+    }
+    .checkout-outer .owl-carousel .item .styles_shimmer__2mxs4,
+    .featuredCarousel .owl-carousel .featured-item-img-outer .styles_shimmer__2mxs4{
+        width: calc(1170px / 4 - 22.5px) !important;
+    }
+}
+@media (min-width:1280px){
+    .sidebar-widget .cars-slider-section .owl-carousel .item .styles_shimmer__2mxs4{
+        width: 360px !important;
+    }
+}

@@ -1,0 +1,267 @@
+.ReactModal__Content {
+  bottom: inherit;
+}
+.ReactModal__Content.EmailPromoPop {
+  background-color: #fff;
+  border-radius: 8px !important;
+}
+.email-pop-container {
+  font-family: "Roboto", sans-serif;
+  color: #717171;
+  position: relative;
+}
+.em-text-sm,
+.em-text-lg,
+.em-text-md {
+  text-transform: uppercase;
+}
+.em-text-sm {
+  font-weight: 700;
+  font-size: 2.8rem;
+}
+.em-text-lg {
+  font-weight: 900;
+  font-size: 9.2rem;
+  line-height: 9.2rem;
+  height: 9.2rem;
+  color: #00c07f;
+}
+.em-text-lsm {
+  font-size: 5rem;
+}
+.em-text-md {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.em-input {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  /* color: #C3C3C3; */
+  border-radius: 25px;
+  height: 50px;
+  padding: 0 20px;
+}
+.em-input:focus {
+  border-color: #00c07f;
+  outline: 0;
+  box-shadow: 0 0 0 2px rgba(0, 192, 127, 0.2);
+}
+.email-pop-container .form-group {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.email-pop-container .signup-icons {
+  top: 28% !important;
+  right: 20px !important;
+}
+.em-coupon-btn {
+  padding: 10px 25px;
+  margin-top: 15px;
+  height: 45px;
+  border-radius: 22px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: #00c07f;
+  border: none;
+  box-sizing: border-box;
+}
+.em-coupon-btn:hover,
+.em-coupon-btn:focus {
+  background-color: #1ab276;
+  color: #fff;
+  outline: none;
+}
+.em-login-so {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #727272;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+.em-login-so ul {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.em-login-so ul img {
+  width: 30px;
+  height: 30px;
+}
+.em-bottom-sec {
+  border-top: 1px solid #e0e0e0;
+  padding-bottom: 15px;
+  margin-top: 40px;
+}
+.em-ca {
+  font-family: "Montserrat", sans-serif;
+  color: #b2b2b2;
+  font-size: 1.1rem;
+  text-align: right;
+  margin-top: 10px;
+}
+.em-close-btn {
+  height: 35px;
+  width: 35px;
+  background-color: #eaeaea;
+  border-radius: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  z-index: 999999999 !important;
+  border: none;
+}
+.em-close-btn img {
+  height: 10px;
+  width: 10px;
+}
+
+/**/
+.leaving-pop-container {
+  font-family: "Montserrat", sans-serif;
+  color: #717171;
+}
+.lr-text-lg {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.lr-text-md {
+  font-size: 2rem;
+  font-weight: 500;
+}
+.lr-text-sm {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.lr-reasons {
+  margin: 30px 0;
+}
+.lr-op-text span:nth-child(2) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #717171;
+}
+.lr-op-text {
+  margin-bottom: 15px;
+  margin-right: 0;
+}
+.lr-op-text:last-child {
+  margin-bottom: 0;
+}
+.em-coupon-btn .preloader-icon {
+  margin-right: 5px;
+}
+.lr-text-sm {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #717171;
+  padding: 0 60px;
+}
+.submit-success-mesg-wrapper .lr-text-lg {
+  margin-top: 15px;
+}
+
+.em-login-so .metro {
+  background: transparent;
+  border: unset;
+}
+.email-pop-container .GC_form_error.em-error {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.em-login-so ul li {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+@media (max-width: 767px) {
+  .ReactModal__Content.EmailPromoPop {
+    min-width: 80% !important;
+    height: 480px !important;
+    z-index: 9999;
+  }
+  .sign-up-popup {
+    padding: 3rem 1.5rem;
+  }
+  .em-text-sm {
+    font-size: 1.6rem;
+  }
+  .em-text-lg {
+    font-size: 6.2rem;
+    line-height: 7.2rem;
+    height: 7.2rem;
+  }
+  .em-text-lsm {
+    font-size: 3rem;
+  }
+  .em-text-md {
+    font-size: 2rem;
+  }
+  .em-input {
+    font-size: 1.4rem !important;
+  }
+  .email-pop-container .signup-icons {
+    top: 32% !important;
+  }
+  .em-coupon-btn {
+    padding: 10px 25px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+  }
+  .em-close-btn {
+    height: 25px;
+    width: 25px;
+    border-radius: 13px;
+  }
+  .em-close-btn img {
+    height: 7px;
+    width: 7px;
+  }
+  .em-bottom-sec {
+    margin-top: 55px;
+  }
+  .em-login-so ul img {
+    width: 26px;
+    height: 26px;
+  }
+  .submit-success-mesg-wrapper {
+    margin-top: 75px;
+  }
+  .lr-text-lg {
+    font-size: 2rem;
+  }
+  .lr-text-md {
+    font-size: 1.6rem;
+  }
+  .lr-text-sm {
+    padding: 0;
+  }
+  .lr-op-text {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .lr-op-text span:nth-child(2) {
+    font-size: 1.4rem;
+  }
+  .lr-op-text {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}

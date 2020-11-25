@@ -1,0 +1,501 @@
+/* .rdrDayNumber{
+    top: -8px !important;
+} */
+.cell-info-wrapper{
+    top: -5px !important;
+}
+.cellInfo{
+    font-size: 11px;
+    position: absolute !important;
+    margin-top: 17px !important;
+}
+.cellInfo {
+    color: #ff5a5f;
+}
+.rdrDayDisabled{
+    background-color: transparent !important;
+}
+.completed-bg{
+    /* background-color: #7F8C8D; */
+    background-color: #fff;
+}
+.approved-bg{
+    /* background-color: #2980B9; */
+    background-color: #fff;
+}
+.pending-bg{
+    /* background-color: #E67E22; */
+    background-color: #fff;
+}
+.ontrip-bg{
+    /* background-color: #00C07F; */
+    background-color: #fff;
+}
+.reviewed-bg{
+    /* background-color: #FF5A5F; */
+    background-color: #fff;
+}
+
+/* Side panel status labels */
+.status-label.sp-pending-status-label{
+    color: #E67E22;
+}
+.status-label.sp-approved-status-label{
+    color: #2980B9;
+}
+.status-label.sp-reviewed-status-label{
+    color: #FF5A5F;
+}
+
+.padding-remove-both{
+    padding-left: 0;
+    padding-right: 0;
+}
+.padding-remove-left{
+    padding-left: 0;
+}
+.padding-remove-right{
+    padding-right: 0;
+}
+
+.flex-outer{
+    display: -ms-flex;
+	display: -webkit-flex;
+	display: flex;
+}
+
+.unstyled-button{
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    line-height: 14px;
+}
+
+.padding-outer{
+    padding: 30px;
+}
+
+.close-panel-button, .close-back-button{
+    border-radius: 8px 0 0 8px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    width: 41px;
+    height: 41px;
+    position: absolute;
+    z-index: 1;
+    left: -40px;
+    display: flex;
+}
+.close-panel-button.approved-cb, 
+.close-back-button.approved-cb{
+    /* background-color: #2980B9; */
+    background-color: #fff;
+}
+.close-panel-button.pending-cb, 
+.close-back-button.pending-cb{
+    /* background-color: #E67E22; */
+    background-color: #fff;
+}
+.close-panel-button.ontrip-cb, 
+.close-back-button.ontrip-cb{
+    /* background-color: #00C07F; */
+    background-color: #fff;
+}
+.close-panel-button.reviewed-cb, 
+.close-back-button.reviewed-cb{
+    /* background-color: #FF5A5F; */
+    background-color: #fff;
+}
+.close-panel-button.completed-cb, 
+.close-back-button.completed-cb{
+    /* background-color: #7F8C8D; */
+    background-color: #fff;
+}
+.close-panel-button img{
+    height: 20px;
+    margin: auto;
+}
+.close-back-button img{
+    height: 12px;
+    margin: auto;
+}
+.side-panel .ant-drawer-body{
+    padding: 0;
+}
+.side-panel .status-icon{
+    height: 18px;
+}
+.side-panel .panel-right-wrapper img{
+    width: 100%;
+}
+.side-panel .panel-left-wrapper{
+    color: #000;
+    padding: 30px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.side-panel .status-label{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.side-panel .sp-car-name{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    margin: 8px 0 5px;
+}
+.side-panel .sp-car-price{
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.side-panel .sp-car-price span{
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+.side-panel .sp-trips{
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+.side-panel .sp-trips span{
+    font-size: 14px;
+    font-weight: 400;
+}
+.side-panel .sp-social-icons{
+    height: 15px;
+}
+.side-panel .sp-trips{
+    padding-right: 15px;
+    margin-right: 15px;
+    line-height: 15px;
+    border-right: 1px solid #c3c3c3;
+
+}
+.side-panel .sp-share{
+    display: inherit;
+}
+.side-panel .sp-share button{
+    margin-right: 10px;
+}
+.side-panel .panel-left-bottom{
+    margin-top: 45px;
+}
+.sp-field-wrapper{
+    margin-bottom: 15px;
+}
+.sp-field-wrapper .sp-label{
+    font-size: 14px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 5px;
+}
+.sp-field-wrapper .sp-field{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+.uneditable-outer-wrapper{
+    background-color: #FAFAFA;
+    padding: 30px 15px;
+}
+.drawer-edit-btn, .drawer-edit-btn a{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.drawer-edit-btn{
+    padding: 30px 0;
+    border-top: 1px solid #ddd !important;
+}
+.drawer-edit-btn:nth-child(2){
+    padding-top: 15px;
+    border-top: none !important;
+}
+.drawer-edit-btn span{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.drawer-edit-btn .next-icon{
+    height: 18px;
+}
+
+/* Calander */
+.rdrCalendarWrapper, 
+.rdrMonths, 
+.rdrMonth{
+    width: 100% !important;
+}
+.rdrDay{
+    height: 3.000em !important;
+    line-height: 3.000em !important;
+}
+.rdrMonth{
+    padding: 0;
+}
+.rdrCalendarWrapper{
+    font-size: 18px !important;
+    font-weight: 500 !important;
+    color: #999999 !important;
+}
+.rdrWeekDay{
+    font-size: 14px;
+    color: #727272 !important;
+}
+.rdrMonth .rdrWeekDays{
+    border-bottom: 1px solid #ddd;
+}
+.rdrDays{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+.rdrDayToday .rdrDayNumber span:after{
+    bottom: 0 !important;
+}
+.rdrDayToday .rdrDayNumber span.cellInfo:after{
+    background: none;
+}
+.date-range-price-wrapper{
+    width: auto;
+    margin: 0 15px;
+    position: relative;
+}
+.date-range-price{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #c3c3c3;
+    padding: 10px 25px;
+    font-size: 25px;
+    font-weight: 400;
+    color: #000;
+    height: 50px;
+}
+.doler-sign{
+    font-size: 25px;
+    color: #c3c3c3;
+    position: absolute;
+    left: 0;
+    top: 6px;
+}
+.date-range-price-wrapper ::-webkit-input-placeholder {
+    color: #ddd;
+}
+.date-range-price-wrapper .apply-btn{
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 100px;
+    font-weight: 600;
+    min-height: 50px;
+    margin-right: 1.5rem;
+    padding: 0;
+    border: 1px solid #00C07F;
+    background-color: #00C07F;
+    min-width: 150px;
+    color: #fff;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+    margin-top: 30px;
+}
+.date-range-price-wrapper .sp-reset-btn img{
+    height: 28px;
+}
+.date-range-price-wrapper .sp-reset-btn{
+    background-color: transparent !important;
+    border: none;
+    box-shadow: none;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.title-wrapper{
+    padding: 15px;
+}
+.title-wrapper .sp-title{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.calender-buttons-wrapper{
+    margin-top: 50px;
+}
+.calender-buttons-wrapper .sp-buttons {
+    text-align: center;
+    font-size: 1.8rem;
+    border-radius: 100px;
+    font-weight: 600;
+    min-height: 50px;
+    margin-right: 1.5rem;
+    padding: 0;
+}
+.calender-buttons-wrapper .sp-cancel-btn{
+    border: 1px solid #00C07F;
+    background-color: #fff;
+    min-width: 152px;
+    color: #00C07F;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.calender-buttons-wrapper .sp-cancel-btn:hover{
+    border: 1px solid #00C07F;
+    background-color: #00C07F;
+    color: #fff;
+}
+.calender-buttons-wrapper .sp-continue-btn{
+    border: 1px solid #00C07F;
+    background-color: #00C07F;
+    min-width: 150px;
+    color: #fff;
+    transition: background-color 0.3s ease-in, color 0.3s ease-in;
+}
+.calender-buttons-wrapper .sp-continue-btn:hover, 
+.date-range-price-wrapper .apply-btn:hover{
+    background-color: #00A56D;
+}
+.title-wrapper.approved-bg{
+    background-color: rgb(61, 145, 255);
+}
+
+@media(max-width:767px){
+    .flex-outer{
+        display: block;
+    }
+    .ant-drawer-content-wrapper{
+        width: 310px !important;
+    }
+    .side-panel .panel-left-wrapper{
+        padding: 20px;
+    }
+    .side-panel .panel-left-bottom{
+        margin-top: 25px;
+    }
+    .side-panel .status-icon{
+        height: 14px;
+    }
+    .side-panel .status-label{
+        font-size: 12px;
+        line-height: 14px;
+        margin-left: 5px;
+    }
+    .side-panel .sp-car-name{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .side-panel .sp-car-price {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .side-panel .sp-car-price span{
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .panel-left-bottom.flex-container, 
+    .visible-xs.drawer-edit-btn{
+        display: flex !important;
+    }
+    .drawer-edit-btn{
+        padding: 15px 0;
+    }
+    .drawer-edit-btn:first-child{
+        padding-top: 5px;
+    }
+    .padding-outer{
+        padding: 20px;
+    }
+    .drawer-edit-btn span{
+        font-size: 16px;
+    }
+    .drawer-edit-btn .next-icon{
+        height: 15px;
+    }
+    .rdrCalendarWrapper{
+        font-size: 14px !important;
+    }
+
+    .drawer-edit-btn:nth-child(1){
+        padding-top: 15px;
+        border-top: none !important;
+    }
+    .drawer-edit-btn:nth-child(2){
+        padding: 15px 0;
+        border-top: 1px solid #ddd !important;
+    }
+
+    /* .date-range-price{
+        padding: 20px 0  20px 15px;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .doler-sign{
+        font-size: 18px;
+        line-height: 18px;
+        bottom: 0px;
+    } */
+    .title-wrapper{
+        padding: 15px;
+    }
+    .title-wrapper .sp-title{
+        font-size: 16px;
+    }
+    .rdrDay{
+        height: 3.00em !important;
+        line-height: 3.000em !important;
+    }
+    .rdrDayNumber span{
+        font-size: 10px;
+    }
+    .cellInfo {
+        font-size: 9px;
+        margin-top: 12px !important;
+    }
+    .rdrWeekDay{
+        font-size: 11px;
+    }
+
+    .date-range-price-wrapper .apply-btn{
+        font-size: 1.4rem;
+        min-height: 36px;
+        margin-right: 1.5rem;
+        min-width: 100px;
+        margin-top: 20px;
+    }
+    .date-range-price-wrapper .sp-reset-btn img{
+        height: 20px;
+    }
+    .calender-buttons-wrapper .sp-buttons {
+        font-size: 1.4rem;
+        min-height: 36px;
+        margin-right: 1rem;
+        min-width: 100px;
+    }
+    .calender-buttons-wrapper .sp-cancel-btn{
+        min-width: 100px;
+    }
+    .calender-buttons-wrapper{
+        margin-top: 20px;
+    }
+}
+/* @media(max-width:320px){
+    .ant-drawer-content-wrapper{
+        width: 200px !important;
+    }
+    .rdrCalendarWrapper{
+        font-size: 12px !important;
+    }
+} */
+/* @media(max-width:480px){
+    .ant-drawer-content-wrapper{
+        width: 320px !important;
+    }
+    .rdrCalendarWrapper{
+        font-size: 12px !important;
+    }
+} */
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}

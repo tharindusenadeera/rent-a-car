@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "revamp";
+  src: url("/fonts/revamp.eot?38rmvr");
+  src: url("/fonts/revamp.eot?38rmvr#iefix") format("embedded-opentype"),
+    url("/fonts/revamp.ttf?38rmvr") format("truetype"),
+    url("/fonts/revamp.woff?38rmvr") format("woff"),
+    url("/fonts/revamp.svg?38rmvr#revamp") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-revamp-"],
+[class*=" icon-revamp-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "revamp" !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-revamp-bank:before {
+  content: "\e927";
+}
+.icon-revamp-bell:before {
+  content: "\e928";
+}
+.icon-revamp-close-cross:before {
+  content: "\e929";
+}
+.icon-revamp-discount-star:before {
+  content: "\e930";
+}
+.icon-revamp-dollar-rotate:before {
+  content: "\e931";
+}
+.icon-revamp-dollar-star:before {
+  content: "\e932";
+}
+.icon-revamp-edit:before {
+  content: "\e926";
+}
+.icon-revamp-filter:before {
+  content: "\e933";
+}
+.icon-revamp-info-icon:before {
+  content: "\e925";
+}
+.icon-revamp-information:before {
+  content: "\e924";
+}
+.icon-revamp-list-set:before {
+  content: "\e934";
+}
+.icon-revamp-map-open-location:before {
+  content: "\e935";
+}
+.icon-revamp-map-pin:before {
+  content: "\e936";
+}
+.icon-revamp-repair-service:before {
+  content: "\e937";
+}
+.icon-revamp-share-new:before {
+  content: "\e938";
+}
+.icon-revamp-shift-gear:before {
+  content: "\e939";
+}
+.icon-revamp-star-filled:before {
+  content: "\e93a";
+}
+.icon-revamp-star-unfilled:before {
+  content: "\e93b";
+}
+.icon-revamp-steering-wheel:before {
+  content: "\e93c";
+}
+.icon-revamp-tooltip-question:before {
+  content: "\e93d";
+}
+.icon-revamp-verified:before {
+  content: "\e93e";
+}
+.icon-revamp-view:before {
+  content: "\e93f";
+}

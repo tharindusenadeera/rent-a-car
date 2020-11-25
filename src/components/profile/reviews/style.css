@@ -1,0 +1,272 @@
+/* Tab buttons styles */
+.reviews-buttons-wrapper .ant-tabs-bar {
+  border: none;
+  height: 40px;
+  text-align: center;
+}
+.reviews-buttons-wrapper .ant-tabs-ink-bar {
+  background-color: transparent !important;
+}
+.reviews-buttons-wrapper .ant-tabs-nav-container {
+  line-height: 0.5;
+}
+/* .reviews-buttons-wrapper .ant-tabs-tab:first-child {
+  border-radius: 100px 0 0 100px;
+}
+.reviews-buttons-wrapper .ant-tabs-tab:last-child {
+  border-radius: 0 100px 100px 0;
+} */
+.reviews-buttons-wrapper .ant-tabs-tab {
+  font-weight: 500;
+  background-color: #ffffff !important;
+  color: #000 !important;
+  border-left: 1px solid #707070;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  margin-right: 0;
+  /* min-width: 225px; */
+  margin-bottom: 5px; /* Janitha Added bottomline missing issue */
+}
+.reviews-buttons-wrapper .ant-tabs-tab:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+.reviews-buttons-wrapper .ant-tabs-tab-active {
+  background-color: transparent !important;
+  color: #00c07f !important;
+}
+
+.review-header-left .rw-pic {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+.review-outer .review-header-center {
+  margin-left: 15px;
+  width: 100%;
+  flex: 1;
+}
+.review-outer .review-header-center .rw-name {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: #00c07f;
+}
+.review-outer .review-header-center .fa {
+  font-size: 1.6rem;
+  color: #ffe34a;
+}
+.review-outer .rew-booking-info {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #727272;
+}
+.review-outer .rew-rating span.rew-rating-count {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #727272;
+  margin-right: 5px;
+}
+.review-outer .rew-sep {
+  background: url("/images/dot-sep.svg") center right no-repeat;
+  background-size: 5px 5px;
+  margin-right: 10px;
+  padding-right: 15px;
+}
+.review-outer .rew-sep:nth-child(4) {
+  background: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.review-header-right {
+  margin-left: auto;
+}
+.review-header-right button {
+  border: none;
+  background-color: transparent;
+}
+.review-header-right .more-icon {
+  height: 5px;
+  width: 21px;
+}
+/* .review-header-right .more-icon:hover{
+    border-radius: 70px;
+    padding: 15px;
+    border: 1px solid #ddd;
+} */
+
+.review-outer .review-content {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.review-outer .review-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #000;
+  /* margin-bottom: 10px; */
+}
+.review-outer .review-description {
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 10px;
+  color: #000;
+}
+.review-outer .review-date-bottom {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #95989a;
+}
+.review-outer .private-review-wrapper .review-title {
+  /* margin-bottom: 5px; */
+}
+.review-outer .private-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #3d91ff;
+  margin-bottom: 10px;
+}
+.review-outer .public-review-wrapper,
+.review-outer .public-review-wrapper {
+  margin-bottom: 15px;
+}
+
+/**/
+.review-header-center .reviews-by-me {
+  display: flex;
+}
+.review-header .trip-car-pic {
+  margin-right: 15px;
+}
+.review-header .trip-car-pic img {
+  border-radius: 4px;
+  width: 70px;
+  height: 46px;
+  object-fit: cover;
+  object-position: center;
+}
+.review-header .rew-car-name {
+  font-weight: 600 !important;
+  color: #000;
+}
+.reviews-by-me .review-header {
+  /* border: 1px solid #ddd;
+  padding: 10px 15px; */
+  border-radius: 8px;
+}
+.reviews-by-me .review-header-left {
+  display: inline-flex;
+}
+.reviews-by-me .review-header-left .rw-pic {
+  height: 20px;
+  width: 20px;
+  object-fit: cover;
+}
+.reviews-by-me .review-header-center .rw-name {
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+.review-outer .private-text {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #3d91ff;
+  margin-bottom: 10px;
+}
+.review-outer .public-review-wrapper {
+  /*margin-bottom: 15px;*/ /* Added for separator BY Janitha */
+}
+
+/* Added for separator BY Janitha */
+.review-outer.reviews-about-me {
+  border-bottom: 1px dashed #dddddd;
+  margin-bottom: 15px;
+}
+
+.review-outer.reviews-by-me {
+  border-bottom: 1px dashed #dddddd;
+  margin-bottom: 15px;
+}
+
+.review-outer.reviews-about-me:last-child {
+  border-bottom: none;
+}
+.review-outer.reviews-by-me:last-child {
+  border-bottom: none;
+}
+.reviews-by-me .review-header-center .rw-name {
+  margin-bottom: 0;
+}
+.reviews-by-me .flex-top {
+  margin-bottom: 5px;
+}
+.reviews-by-me .flex-top .rew-sep:last-child,
+.reviews-by-me .flex-bottom .rew-sep:last-child {
+  background: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+.reviews-by-me .flex-bottom .rew-sep {
+  background: url("/images/dot-sep.svg") center right no-repeat;
+  background-size: 5px 5px;
+  margin-right: 10px;
+  padding-right: 15px;
+}
+.reviews-by-me .review-header-center {
+  margin-left: 0;
+}
+
+/* .private-review-colap{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+} */
+.colap-content-btn {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  border: none !important;
+  background-color: transparent !important;
+  padding: 0 !important;
+}
+.colap-content-btn img {
+  margin-left: 10px;
+}
+
+.leave-feedback img {
+  height: 15px;
+  margin-right: 5px;
+}
+.leave-feedback {
+  color: #00c07f !important;
+  font-weight: 600 !important;
+}
+
+@media (max-width: 767px) {
+  .review-outer .rew-sep {
+    background: none;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .review-outer .review-header,
+  .rew-rating.visible-xs {
+    display: flex !important;
+  }
+  .rating-mobile-wrap {
+    margin-top: 2px;
+  }
+  .rew-rating.visible-xs .rw-name {
+    margin-right: 5px;
+  }
+  .review-header-right button {
+    padding: 0;
+    margin: 5px 0 0 0;
+  }
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
